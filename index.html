@@ -8,25 +8,45 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/etq1qen.css">
+
+    <script>
+        window.onload = () => {
+            document.querySelector('.preloader').style.display = "none";
+            document.querySelector('body').style.display = "block";
+        }
+    </script>
 </head>
 <body>
-    <!--Header-->
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>Samir Shrestha</h1>
-            </div>
-            
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+
+    <div class="preloader">
+        <img src="images/square-loader.gif" alt="preloader">
+    </div>
+
+    <div class="content">
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1>Samir Shrestha</h1>
+                </div>
+                
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
     
+        <div class="maincontent">
+            <img src="images/1.jpg" alt="image">
+            <img src="images/2.jpg" alt="image">
+            <img src="images/3.jpg" alt="image">
+            <img src="images/4.png" alt="image">
+            <img src="images/5.jpg" alt="image">
+        </div>
+    </div>    
     
     
 </body>
